@@ -24,7 +24,8 @@ public class Controller {
 
 	@GetMapping("/phone")
 	public String getPhone() {
-		return "645322899";
+		return restTemplate.getForObject("http://localhost:8091/phone", String.class);
 	}
+	
 }
 

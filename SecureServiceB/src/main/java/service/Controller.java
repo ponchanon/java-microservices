@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
 
 
-	@GetMapping("/salary")
-	public String getGetSalary() {
-		return "95.000";
+	@GetMapping("/phone")
+	public String getPhone() {
+		return "6412330000";
 	}
 
 }
